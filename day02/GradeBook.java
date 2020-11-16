@@ -1,12 +1,49 @@
 package day02;
 
-public class GradeBook {
+class GradeBook {
 	int id ;
 	String name ;
 	int korean ;
 	int english ;
 	int math ;
 	
-	// getter setter 만들고 main메소드에 만들고 sum ave 는 메인메소드에 만들기
+	void setId(int id) {
+		this.id = id;
+	}
 	
+	int getId() {
+		return id ;
+	}
+	
+	void setName(String name) {
+		this.name = name;
+	}
+	
+	String getName() {
+		return name ;
+	}
+	
+	void setKorean(int korean) {
+		this.korean = korean ;
+	}
+	
+	int getKorean() {
+		return korean ;
+	}
+	
+	void setEnglish(int english) {
+		this.english = english ;
+	}
+	
+	int getEnglish() {
+		return english ;
+	}
+	
+	void setMath(int math) {
+		this.math = math ;
+	}
+
+	int getMath() {
+		return math ;
+	}
 }

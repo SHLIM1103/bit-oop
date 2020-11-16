@@ -1,8 +1,22 @@
 package day02;
 
-public class BMI {
+class BMI {
 	double weight ;
 	double height ;
 	
-	// getter setter 만들고 bmi 계산은 main메소드에
+	void setWeight(double weight) {
+		this.weight = weight ;
+	}
+	
+	double getWeight() {
+		return weight ;
+	}
+	
+	void setHeight(double height) {
+		this.height = height ;
+	}
+	
+	double getHeight() {
+		return height ;
+	}
 }
