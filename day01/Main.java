@@ -11,15 +11,15 @@ class Main {
 		Operator operator = new Operator();
 		Naming naming = new Naming();
 		
-		System.out.print("ÀÌ¸§: ");
+		System.out.print("ì´ë¦„: ");
 		String name = scanner.nextLine();
 		naming.setName(name);
 		
-		System.out.print("¼ıÀÚ 1: ");
+		System.out.print("myNumber1: ");
 		int myNumber1 = scanner.nextInt();
 		operator.setMyNumber1(myNumber1);
 		
-		System.out.print("¼ıÀÚ 2: ");
+		System.out.print("myNumber2: ");
 		int myNumber2 = scanner.nextInt();
 		operator.setMyNumber2(myNumber2);
 		
