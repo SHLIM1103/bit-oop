@@ -1,5 +1,13 @@
 package day01;
 
-public class Naming {
+class Naming {
+	String name;
 
+	void setName(String name) {
+		this.name = name;
+	}
+
+	String getName() {
+		return name;
+	}
 }

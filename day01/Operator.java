@@ -1,9 +1,22 @@
 package day01;
 
-public class Operator {
+class Operator {
 	int myNumber1 ;
 	int myNumber2 ;
 	
-	// getter/setter 만든담에 main 클래스에서 메인메소드를 만들고 연산자 다섯개를 메인클래스에 넣자
+	void setMyNumber1(int myNumber1) {
+		this.myNumber1 = myNumber1;
+	}
 	
+	int getMyNumber1() {
+		return myNumber1 ;
+	}
+	
+	void setMyNumber2(int myNumber2) {
+		this.myNumber2 = myNumber2;
+	}
+	
+	int getMyNumber2() {
+		return myNumber2 ;
+	}
 }
